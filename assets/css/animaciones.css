@@ -1,0 +1,58 @@
+.box{
+    width: 200px;
+    height: 200px;
+    animation-name: box;
+    animation-duration: 3s;
+    background-color: blue;
+    /*animation-iteration-count: infinite;*/
+    position: relative;
+}
+
+@keyframes box{
+    /*from{background-color: blue;}
+    to{background-color: red;}*/
+
+    /*0% {background-color: blue;}
+    25% {background-color: blueviolet;}
+    50% {background-color: aqua;}
+    75% {background-color: red;}
+    100% {background-color: green;}*/
+
+    0% {background-color: blue; left: 0px; top: 0px;}
+    100% {background-color: blueviolet; left: 100%; top: 0px;}
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    animation-name: box2;
+    animation-duration: 20s;
+    background-color: rgba(244, 248, 0, 0.733);
+    /*animation-iteration-count: infinite;*/
+    position: relative;
+
+}
+
+@keyframes box2{
+    0% {background-color: rgb(255, 153, 0); left: 0px; top: 0px;}
+    100% {background-color: blueviolet; left: 100%; top: 100px;}
+
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    animation-name: box3;
+    animation-duration: 2s;
+    background-color: rgb(129, 10, 40);
+   /* animation-iteration-count: infinite;*/
+    position: relative;
+}
+
+@keyframes box3{
+    0% {background-color: rgb(255, 0, 0); left: 0px; top: 0px;}
+    100% {background-color: blueviolet; left:100%; top: 0px;}
+
+}
+
+
