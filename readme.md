@@ -17,4 +17,5 @@ Este sitio contiene lo siguiente:
         * Landing page
         * Sitio web Informativo
         * Tienda online
-    * 
+
+[Buscador](https://www.google.co.ve/?hl=es)
