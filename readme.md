@@ -19,8 +19,6 @@ Este sitio contiene lo siguiente:
         * Tienda online
 
 [Buscador](https://www.google.co.ve/?hl=es)
-
-
-<h1>Fotografia de: Lamborghini Huracan Spyder </h1>
+<h3>Lamborghini Huracán Spyder </h3>
 
 ![Lambo](assets/images/tnt1sdreuccr9iqjyewf.webp)
