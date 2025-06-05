@@ -9,7 +9,7 @@ Este sitio contiene lo siguiente:
 
 - Pagina de Contacto: contiene un título, formulario de contacto y Google Maps. 
 
-> Just do it! -Nike
+> Just do it! -Nike 
 
 * SERVICIOS
     * Fotografía
@@ -18,7 +18,7 @@ Este sitio contiene lo siguiente:
         * Sitio web Informativo
         * Tienda online
 
-[Buscador](https://www.google.co.ve/?hl=es)
+[bootstrap](https://getbootstrap.com/)
 <h3>Lamborghini Huracán Spyder </h3>
 
 ![Lambo](assets/images/tnt1sdreuccr9iqjyewf.webp)
