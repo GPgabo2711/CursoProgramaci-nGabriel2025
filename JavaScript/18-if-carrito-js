@@ -1,0 +1,55 @@
+/*let dinero = 500;
+let carrito = 300;
+
+if(dinero > carrito){
+    console.log(`debes darme vuelto`);
+}else if(dinero = carrito)
+    console.log(`saldo insuficiente`);
+else
+    console.log(`pago insuficiente`);*/
+
+/*let rol = `VISITANTE`;
+let contra = `1234`;
+
+if(rol === `ADMIN` && contra === `1234`)
+    console.log(`El Usuario puede editar, eliminar y ver toda la informacion`);
+else if(rol === `EDITOR` && contra === `1234`)
+    console.log(`El Usuario solo puede editar sus registros`);
+else if(rol === `VISITANTE` && contra === `1234`)
+    console.log(`El Usuario es visitante, solo puede ver la información`);
+else 
+    console.log(`USUARIO O CONTRASEÑA ERRADA`);*/
+
+/*
+let efectivo = 300;
+let credito = 400;
+let disponible = efectivo + credito;
+let totalCarrito = 700;
+
+if(efectivo > totalCarrito || credito > totalCarrito)
+    console.log(`Puedes pagar con efectivo o credito`);
+else if(disponible >= totalCarrito)
+    console.log(`Paga con ambos`);
+else
+    console.log(`No puedes pagar`);*/
+
+
+const autenticado = true;
+const puedePagar = true
+
+console.log( autenticado ? `si esta autenticado` : `no esta autenticado`);
+
+// el Or y el && tambien se puede utilizar en el ternario
+
+console.log( autenticado && puedePagar ? `si esta autenticado realizando pago` : `no esta autenticado o no puede pagar`);
+
+// Ternario anidado...
+
+console.log( autenticado ? puedePagar ? `Si puede pagar` : `esta autenticado pero no puede pagar` : `no esta autenticado`);
+
+
+
+
+
+
+
