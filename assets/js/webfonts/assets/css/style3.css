@@ -1,0 +1,22 @@
+#miBoton{
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    padding: 15px;
+    color: white;
+}
+#mensaje{
+    color: blue;
+    font-size: 36px;
+}
+span{
+    color: red; display: none;
+}
+.exito{
+    display: none; color: green; font-weight: bold; margin-top: 10px; 
+}
+#box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}

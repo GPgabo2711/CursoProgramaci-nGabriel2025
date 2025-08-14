@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style3.css">
+</head>
+<body>
+    <button id="miBoton">¡Haz clic aquí!</button>
+    <p id="mensaje"></p>
+
+    <div id="box"
+        onmouseover="cambiarColor('cuadro','orange')"
+        onmouseout="cambiarColor('cuadro','lightblue')">
+    ¡Pasa el mouse!☻   
+    </div>
+
+
+
+<form id="miForm" onsubmit="return validar(event)">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre">
+    <span id="errorNombre">El nombre es obligatiro.</span>
+    <br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email">
+    <span id="errorEmail">El email es obligatorio</span>
+    <br>
+
+    <label for="clave">Clave:</label><br>
+    <input type="clave" id="clave" name="clave">
+    <span id="errorClave">la clave es ovbligatoria.</span>
+    <br><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="limpiar">
+    <!---<buttom type="button" onclick="myFunction()">Submit</button>-->
+</form>
+
+<div id="mensajeExito" class="exito">
+    ¡Formulario enviado con éxito!
+</div>
+
+<script src="eventos.js"></script>
+</body>
+</html>
