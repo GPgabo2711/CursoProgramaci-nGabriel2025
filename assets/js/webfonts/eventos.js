@@ -41,7 +41,7 @@ function validar(event) {
         hayError = true;
     }
 
-    // Validación para el campo "email".
+
     if (email.trim() === '') {
         errorEmail.style.display = 'block';
         hayError = true;

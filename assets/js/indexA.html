@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Validación</title>
+    <link rel="stylesheet" href="styleA.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Registro</h2>
+        <form id="miForm" onsubmit="return validar(event)">
+            <div class="grupos">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+                <span class="error" id="errorNombre">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido">
+                <span class="error" id="errorApellido">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email">
+                <span class="error" id="errorEmail">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono">
+                <span class="error" id="errorTelefono">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion">
+                <span class="error" id="errorDireccion">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad">
+                <span class="error" id="errorCiudad">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <option value="">Seleccione un estado</option>
+                    <option value="estado1">Aragua</option>
+                    <option value="estado2">Guarico</option>
+                </select>
+                <span class="error" id="errorEstado">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="codigoPostal">Código Postal:</label>
+                <input type="text" id="codigoPostal">
+                <span class="error" id="errorCodigoPostal">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="clave">Contraseña:</label>
+                <input type="password" id="clave">
+                <span class="error" id="errorClave">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="grupos">
+                <label for="confirmarClave">Confirmar Contraseña:</label>
+                <input type="password" id="confirmarClave">
+                <span class="error" id="errorConfirmarClave">Este campo es obligatorio.</span>
+            </div>
+
+            <div class="mensaje-exito" id="mensajeExito">Formulario enviado exitosamente.</div>
+
+            <input type="submit" value="Registrar" class="registrar">
+        </form>
+    </div>
+
+    <script src="eventoA.js"></script>
+</body>
+</html>
